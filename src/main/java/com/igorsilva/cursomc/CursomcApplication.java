@@ -25,6 +25,8 @@ public class CursomcApplication implements CommandLineRunner {
 		Categoria cat1 = new Categoria(null, "Informática");
 		Categoria cat2 = new Categoria(null, "Escritório");
 
+		//new Produto(null,"");
+
 		categoriaRepository.saveAll(Arrays.asList(cat1, cat2));
 	}
 }
